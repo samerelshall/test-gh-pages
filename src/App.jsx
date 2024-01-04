@@ -3,6 +3,8 @@ import RecipeCard from "./RecipeCard";
 import SearchIcon from "./search.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
+
 import Test from "./Test";
 import RecipeDetails from "./RecipeDetails";
 import FoodSearch from "./FoodSearch";
@@ -38,7 +40,7 @@ function App() {
     <div className="app">
       <Routes>
         <Route
-          path="/"
+          path="/test-gh-pages"
           element={
             <>
               <FoodSearch
